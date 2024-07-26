@@ -1,0 +1,22 @@
+Scanner sc  = new Scanner(System.in);
+       
+        String value = sc.nextLine(); //
+        // System.out.println(value);
+ 
+        String[] str =  value.split(" ");
+ 
+ 
+        int n = str.length;
+ 
+        for(int i =0 ; i < n;i++){
+            long temp = Long.parseLong(str[i]);
+ 
+            if(temp % 2 == 0){
+                System.out.println(temp);
+            }
+ 
+        }
+       
+ 
+    }
+}
